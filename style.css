@@ -1,0 +1,55 @@
+@font-face{
+    font-family: "KantumruyPro-Bold";
+    src: url("./fonts/KantumruyPro-Bold.ttf");
+}
+.font{
+    font-family: "kantumruyPro-Bold";
+}
+
+
+* {
+    background-color: lightgray;
+}
+
+
+
+h1 {
+    background-color: yellowgreen;
+    color: blue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    padding: 5px;
+    text-align: center;
+    font-variant: small-caps;
+    letter-spacing: 3px;
+}
+
+h2 {
+    font-family: "Noto Serif Khmer";
+    letter-spacing: 3px;
+}
+
+#demo {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(98, 0, 255) !important;
+}
+
+article p {
+    color: blue;
+    font-variant: small-caps;
+}
+
+/*article>p:first-child{  first element <p> 
+    text-transform: uppercase;
+    color: yellowgreen;
+    text-align: center;
+}*/
+article>p:nth-child(even) {
+    /*other child element <p> */
+    color: brown;
+}
+ p:hover{ /*backgroud change when put the cursor on element  */
+    background-color: gray;
+    transition: 0.5s ;
+}
